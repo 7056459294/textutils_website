@@ -9,8 +9,7 @@ def home(request):
  return render(request, 'index.html')
    # return HttpResponse("home") 
    
-def removespace(request):
-    return HttpResponse("removespace <a href=/home>back<a/>")
+
 
 def analyzer(request):
     #get text
